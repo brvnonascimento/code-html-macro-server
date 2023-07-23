@@ -1,15 +1,6 @@
-# Rust-Yew
+# code-html-macro-server
 
-<img
-    style="display: block;margin: auto;width: 20%;"
-    src="https://raw.githubusercontent.com/TechTheAwesome/code-yew-server/main/rustyew.png"
-    alt="Pandora Logo">
-</img>
-
-![GitHub](https://img.shields.io/github/license/TechTheAwesome/code-yew-server?style=for-the-badge)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/TechTheAwesome/code-yew-server/ci.yml?style=for-the-badge)
-
-A VSCode extension that provides some language features for [Yew](https://yew.rs/)'s html macro syntax.
+A fork of the [code-yew-server](https://github.com/ttax00/code-yew-server) extension that provides html language features for any html macro syntax in Rust in VS Code
 
 ![](.github/assets/main.gif)
 
@@ -22,7 +13,7 @@ A VSCode extension that provides some language features for [Yew](https://yew.rs
 - Folding ranges.
 
 ## Installation
-Get the extension on [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=TechTheAwesome.rust-yew&ssr=false) !
+Get the extension on [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=brvnonascimento.code-html-macro-server) !
 
 ## Contributing
 For those who are interested in getting involved:
@@ -35,5 +26,6 @@ Here's some long standing issues/feature that I would require assistance on if t
 - [ ] Language configuration crossing between rust & macro syntax. [Issue](https://github.com/TechTheAwesome/code-yew-server/issues/19)
 
 ## Acknowledgements
+- Fork from [code-yew-server](https://github.com/ttax00/code-yew-server)
 - Inspiration taken from [yew-highlighting](https://github.com/Alexandre-Borghi/yew-highlighting). 
 - Follows the amazingly detailed guide for [embedded languages](https://code.visualstudio.com/api/language-extensions/embedded-languages).
