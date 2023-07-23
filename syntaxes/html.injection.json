@@ -1,0 +1,90 @@
+{
+	"scopeName": "source.rust.yew",
+	"injectionSelector": "L:source.rust",
+	"patterns": [
+		{
+			"include": "#html-macro"
+		},
+		{
+			"include": "#hyperride-macro"
+		},
+		{
+			"include": "#view-leptos-macro"
+		},
+		{
+			"include": "#rust-brackets"
+		}
+	],
+	"repository": {
+		"html-macro": {
+			"name": "source.rust.yew.html",
+			"begin": "html! {",
+			"end": "}",
+			"beginCaptures": {
+				"0": {
+					"name": "punctuation.macro.open"
+				}
+			},
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.macro.close"
+				}
+			},
+			"patterns": [
+				{
+					"include": "source.js.jsx"
+				}
+			]
+		},
+		"hyperride-macro": {
+			"name": "source.rust.yew.html",
+			"begin": "hyperride! {",
+			"end": "}",
+			"beginCaptures": {
+				"0": {
+					"name": "punctuation.macro.open"
+				}
+			},
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.macro.close"
+				}
+			},
+			"patterns": [
+				{
+					"include": "source.js.jsx"
+				}
+			]
+		},
+		"view-leptos-macro": {
+			"name": "source.rust.yew.html",
+			"begin": "view! {",
+			"end": "}",
+			"beginCaptures": {
+				"0": {
+					"name": "punctuation.macro.open"
+				}
+			},
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.macro.close"
+				}
+			},
+			"patterns": [
+				{
+					"include": "source.js.jsx"
+				}
+			]
+		},
+		"rust-brackets": {
+			"name": "source.rust.yew.html.embedded-rust",
+			"begin": "{",
+			"end": "}",
+			"patterns": [
+				{
+					"include": "source.rust"
+				}
+			]
+		}
+	}
+}

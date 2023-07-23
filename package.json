@@ -1,15 +1,15 @@
 {
-	"name": "rust-yew",
-	"description": "Provides some html language features for yew html macro.",
-	"author": "TechTheAwesome",
-	"publisher": "TechTheAwesome",
+	"name": "code-html-macro-server",
+	"description": "Provides some html language features for any html macro.",
+	"author": "brvnonascimento",
+	"publisher": "brvnonascimento",
 	"version": "0.2.2",
 	"pricing": "Free",
-	"icon": "rustyew.png",
+	"icon": "html!.png",
 	"packageManager": "^npm@8.19.2",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/TechTheAwesome/code-yew-server/"
+		"url": "https://github.com/brvnonascimento/code-html-macro-server"
 	},
 	"keywords": [
 		"rust",
@@ -52,7 +52,7 @@
 					"source.rust"
 				],
 				"scopeName": "source.rust.yew",
-				"path": "./syntaxes/yew.injection.json",
+				"path": "./syntaxes/html.injection.json",
 				"embeddedLanguages": {
 					"source.rust.yew.html": "escapedhtml",
 					"source.rust.yew.html.embedded-rust": "rust"
