@@ -6,7 +6,7 @@
 			"include": "#html-macro"
 		},
 		{
-			"include": "#hyperride-macro"
+			"include": "#hyperide-macro"
 		},
 		{
 			"include": "#view-leptos-macro"
@@ -36,9 +36,9 @@
 				}
 			]
 		},
-		"hyperride-macro": {
+		"hyperide-macro": {
 			"name": "source.rust.yew.html",
-			"begin": "hyperride! {",
+			"begin": "hyperide! {",
 			"end": "}",
 			"beginCaptures": {
 				"0": {
