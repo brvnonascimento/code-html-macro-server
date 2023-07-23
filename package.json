@@ -3,7 +3,7 @@
 	"description": "Provides some html language features for any html macro.",
 	"author": "brvnonascimento",
 	"publisher": "brvnonascimento",
-	"version": "0.2.2",
+	"version": "0.2.3",
 	"pricing": "Free",
 	"icon": "html!.png",
 	"packageManager": "^npm@8.19.2",
